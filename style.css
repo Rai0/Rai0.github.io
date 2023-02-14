@@ -1,0 +1,180 @@
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background-color: #31343C;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.content_wrapper .bottle_preview{
+    margin: auto;
+    height: 982px;
+    width: 1512px;
+    position: relative;
+}
+
+.content_wrapper .bottle_preview .its_time p{
+    position: absolute;
+    width: 198px;
+    height: 45px;
+    right: 644px;
+    top: calc(50% - 45px/2 - 433.5px);
+    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 15px;
+    
+    display: flex;
+    align-items: center;
+    text-align: right;
+    text-indent: 10.5156px;
+    
+    color: #FFFFFF;
+}
+.content_wrapper .bottle_preview .how p{
+    position: absolute;
+    width: 159.4px;
+    height: 30px;
+    right: 328.8px;
+    top: calc(50% - 30px/2 - 433px);
+    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 15px;
+    /* or 100% */
+    
+    display: flex;
+    align-items: center;
+    text-align: right;
+    text-indent: 46px;
+    
+    color: #FFFFFF;
+}
+
+.content_wrapper .bottle_preview .bottel_shot{
+    position: absolute;
+    width: 862px;
+    height: 761px;
+    left: 325px;
+    top: 221px;
+}
+
+.content_wrapper .bottle_preview .about .vol{
+    position: absolute;
+    width: 39.18px;
+    height: 33px;
+    left: 1207.47px;
+    top: 404.5px;
+}
+.content_wrapper .bottle_preview .about .name{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 15px;
+    color: #ADADAD;
+    margin-bottom: 5px;
+}
+
+.content_wrapper .bottle_preview .about .val{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.content_wrapper .bottle_preview .about .di{
+    position: absolute;
+    width: 52.03px;
+    height: 33px;
+    left: 1209.33px;
+    top: 460.5px;
+}
+
+.content_wrapper .bottle_preview .about .ma{
+    position: absolute;
+    width: 58.3px;
+    height: 33px;
+    left: 1208.48px;
+    top: 516.5px;
+}
