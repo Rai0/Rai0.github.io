@@ -147,7 +147,7 @@ select {
 .content_wrapper .bottle_preview .about .name{
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 15px;
     line-height: 15px;
     color: #ADADAD;
@@ -177,4 +177,124 @@ select {
     height: 33px;
     left: 1208.48px;
     top: 516.5px;
+}
+
+.content_wrapper .bottle_preview .bottle_qr{
+  position: absolute;
+  height: 47.25px;
+  left: 1210px;
+  right: 211px;
+  top: 897.69px;
+}
+
+.content_wrapper .bottle_parameter{
+  margin: auto;
+  height: 1450px;
+  width: 1512px;
+  position: relative;
+}
+
+.content_wrapper .bottle_parameter .title{
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 155px;
+  line-height: 240px;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -7px;
+
+  color: #EAEAEA;
+}
+
+.content_wrapper .bottle_parameter .title .live{
+  position: absolute;
+  height: 241px;
+  left: 170px;
+  right: 640px;
+  top: calc(50% - 241px/2 - 346.5px);
+}
+.content_wrapper .bottle_parameter .title .oriented{
+  position: absolute;
+  height: 241px;
+  left: 327.22px;
+  right: 301.78px;
+  top: calc(50% - 241px/2 - 229px);
+}
+
+.content_wrapper .bottle_parameter .parameter_list{
+  position: absolute;
+  width: 1094px;
+  left: 204px;
+  top: 747px;
+}
+
+.content_wrapper .bottle_parameter .parameter_list .parameter_item{
+  height: 140px;
+  width: 1093px;
+  margin: auto;
+  position: relative;
+  margin-bottom: 60px;
+}
+.content_wrapper .bottle_parameter .parameter_list .parameter_item .name{
+  position: absolute;
+  height: 24px;
+  left: 0.15px;
+  right: 1044.85px;
+  top: calc(50% - 24px/2 + 32px);
+
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 23px;
+
+  display: flex;
+  align-items: center;
+
+  color: #D6D6D6;
+}
+.content_wrapper .bottle_parameter .parameter_list .parameter_item .value{
+  position: absolute;
+  height: 140px;
+  width: 290px;
+  left: 244px;
+  right: 611px;
+  top: calc(50% - 140px/2);
+
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 140px;
+  display: flex;
+  align-items: center;
+  color: #EAEAEA;
+}
+.content_wrapper .bottle_parameter .parameter_list .parameter_item .description{
+  position: absolute;
+  height: 59px;
+  left: 773px;
+  right: 30px;
+  top: calc(50% - 59px/2 - 0.5px);
+
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #D6D6D6;
+}
+
+.content_wrapper .bottle_parameter .parameter_list .parameter_item .line {
+  position: absolute;
+  height: 1px;
+  left: 0px;
+  right: 0px;
+  top: calc(50% - 1px/2 + 51.5px);
+
+  background: rgba(255, 255, 255, 0.5);
 }
