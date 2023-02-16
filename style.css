@@ -282,6 +282,12 @@ select {
     top: 516.5px;
 }
 
+.content_wrapper .bottle_preview .bottle_qr a{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
 .content_wrapper .bottle_preview .bottle_qr{
   position: absolute;
   height: 47.25px;
